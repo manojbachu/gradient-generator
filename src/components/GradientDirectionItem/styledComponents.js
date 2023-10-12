@@ -8,7 +8,7 @@ export const DirectionItem = styled.li`
   }
 `
 export const GradientBtn = styled.button`
-  background-color: ${props => (props.isActive ? '#ededed' : '#ffffff79')};
+  background-color: #ededed
   width: 80px;
   border: none;
   padding: 8px 10px 8px 10px;
@@ -16,7 +16,7 @@ export const GradientBtn = styled.button`
   font-family: 'Roboto';
   color: #014f7b;
   font-weight: 500;
-  opacity; ${props => (props.isActive ? 1 : 0.5)};
+  opacity: ${props => (props.isActive ? 1 : 0.5)};
   @media (max-width: 576px) {
     width: 100%;
   }
